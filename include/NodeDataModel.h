@@ -4,13 +4,13 @@
 
 #include <QtWidgets/QWidget>
 
-#include "PortType.hpp"
-#include "NodeData.hpp"
-#include "Serializable.hpp"
-#include "NodeGeometry.hpp"
-#include "NodeStyle.hpp"
-#include "NodePainterDelegate.hpp"
-#include "Export.hpp"
+#include "PortType.h"
+#include "NodeData.h"
+#include "Serializable.h"
+#include "NodeGeometry.h"
+#include "NodeStyle.h"
+#include "NodePainterDelegate.h"
+#include "Export.h"
 
 namespace QtNodes
 {

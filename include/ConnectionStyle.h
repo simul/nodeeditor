@@ -2,8 +2,8 @@
 
 #include <QtGui/QColor>
 
-#include "Export.hpp"
-#include "Style.hpp"
+#include "Export.h"
+#include "Style.h"
 
 namespace QtNodes
 {
@@ -14,7 +14,7 @@ public:
 
   ConnectionStyle();
 
-  ConnectionStyle(QString jsonText);
+  ConnectionStyle(QString jsonFile);
 
 public:
 

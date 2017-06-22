@@ -1,4 +1,4 @@
-#include "ConnectionStyle.hpp"
+#include "ConnectionStyle.h"
 
 #include <iostream>
 
@@ -10,7 +10,7 @@
 
 #include <QDebug>
 
-#include "StyleCollection.hpp"
+#include "StyleCollection.h"
 
 using QtNodes::ConnectionStyle;
 
@@ -21,7 +21,7 @@ ConnectionStyle()
 {
   // Explicit resources inialization for preventing the static initialization
   // order fiasco: https://isocpp.org/wiki/faq/ctors#static-init-order
-  initResources();
+  //	initResources();
 
   // This configuration is stored inside the compiled unit and is loaded statically
   loadJsonFile(":DefaultStyle.json");
@@ -29,10 +29,9 @@ ConnectionStyle()
 
 
 ConnectionStyle::
-ConnectionStyle(QString jsonText)
+ConnectionStyle(QString jsonFile)
 {
-  loadJsonFile(":DefaultStyle.json");
-  loadJsonText(jsonText);
+  loadJsonFile( jsonFile );
 }
 
 

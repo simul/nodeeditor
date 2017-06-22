@@ -3,10 +3,10 @@
 #include <QtCore/QUuid>
 #include <QtWidgets/QGraphicsObject>
 
-#include "Connection.hpp"
+#include "Connection.h"
 
-#include "NodeGeometry.hpp"
-#include "NodeState.hpp"
+#include "NodeGeometry.h"
+#include "NodeState.h"
 
 class QGraphicsProxyWidget;
 

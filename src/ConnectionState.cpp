@@ -1,11 +1,11 @@
-#include "ConnectionState.hpp"
+#include "ConnectionState.h"
 
 #include <iostream>
 
 #include <QtCore/QPointF>
 
-#include "FlowScene.hpp"
-#include "Node.hpp"
+#include "FlowScene.h"
+#include "Node.h"
 
 using QtNodes::ConnectionState;
 using QtNodes::Node;

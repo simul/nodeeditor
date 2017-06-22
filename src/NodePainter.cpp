@@ -1,17 +1,17 @@
-#include "NodePainter.hpp"
+#include "NodePainter.h"
 
 #include <cmath>
 
 #include <QtCore/QMargins>
 
-#include "StyleCollection.hpp"
-#include "PortType.hpp"
-#include "NodeGraphicsObject.hpp"
-#include "NodeGeometry.hpp"
-#include "NodeState.hpp"
-#include "NodeDataModel.hpp"
-#include "Node.hpp"
-#include "FlowScene.hpp"
+#include "StyleCollection.h"
+#include "PortType.h"
+#include "NodeGraphicsObject.h"
+#include "NodeGeometry.h"
+#include "NodeState.h"
+#include "NodeDataModel.h"
+#include "Node.h"
+#include "FlowScene.h"
 
 using QtNodes::NodePainter;
 using QtNodes::NodeGeometry;

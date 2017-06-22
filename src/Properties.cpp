@@ -1,4 +1,4 @@
-#include "Properties.hpp"
+#include "Properties.h"
 
 //#include <QtCore/QVariantMap>
 

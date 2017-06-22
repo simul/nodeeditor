@@ -1,4 +1,4 @@
-#include "FlowScene.hpp"
+#include "FlowScene.h"
 
 #include <iostream>
 #include <stdexcept>
@@ -16,17 +16,17 @@
 
 #include <QDebug>
 
-#include "Node.hpp"
-#include "NodeGraphicsObject.hpp"
+#include "Node.h"
+#include "NodeGraphicsObject.h"
 
-#include "NodeGraphicsObject.hpp"
-#include "ConnectionGraphicsObject.hpp"
+#include "NodeGraphicsObject.h"
+#include "ConnectionGraphicsObject.h"
 
-#include "FlowItemInterface.hpp"
-#include "FlowView.hpp"
-#include "DataModelRegistry.hpp"
+#include "FlowItemInterface.h"
+#include "FlowView.h"
+#include "DataModelRegistry.h"
 
-using QtNodes::FlowScene;
+//using QtNodes::FlowScene;
 using QtNodes::Node;
 using QtNodes::NodeGraphicsObject;
 using QtNodes::Connection;
@@ -36,6 +36,8 @@ using QtNodes::NodeDataModel;
 using QtNodes::PortType;
 using QtNodes::PortIndex;
 
+namespace QtNodes
+{
 FlowScene::
 FlowScene(std::shared_ptr<DataModelRegistry> registry)
   : _registry(registry)
@@ -510,7 +512,7 @@ loadFromMemory(const QByteArray& data)
     restoreConnection(connectionJsonArray[i].toObject());
   }
 }
-
+}
 
 //------------------------------------------------------------------------------
 namespace QtNodes

@@ -1,16 +1,16 @@
-#include "Node.hpp"
+#include "Node.h"
 
 #include <QtCore/QObject>
 
 #include <iostream>
 
-#include "FlowScene.hpp"
+#include "FlowScene.h"
 
-#include "NodeGraphicsObject.hpp"
-#include "NodeDataModel.hpp"
+#include "NodeGraphicsObject.h"
+#include "NodeDataModel.h"
 
-#include "ConnectionGraphicsObject.hpp"
-#include "ConnectionState.hpp"
+#include "ConnectionGraphicsObject.h"
+#include "ConnectionState.h"
 
 using QtNodes::Node;
 using QtNodes::NodeGeometry;

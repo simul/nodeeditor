@@ -4,7 +4,7 @@
 
 #include <QtCore/QUuid>
 
-#include "PortType.hpp"
+#include "PortType.h"
 
 class QPointF;
 

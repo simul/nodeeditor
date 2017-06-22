@@ -6,12 +6,12 @@
 #include <QtCore/QUuid>
 #include <QVariant>
 
-#include "PortType.hpp"
-#include "NodeData.hpp"
+#include "PortType.h"
+#include "NodeData.h"
 
-#include "Serializable.hpp"
-#include "ConnectionState.hpp"
-#include "ConnectionGeometry.hpp"
+#include "Serializable.h"
+#include "ConnectionState.h"
+#include "ConnectionGeometry.h"
 
 class QPointF;
 

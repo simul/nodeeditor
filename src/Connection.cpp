@@ -1,4 +1,4 @@
-#include "Connection.hpp"
+#include "Connection.h"
 
 #include <iostream>
 #include <math.h>
@@ -6,17 +6,17 @@
 #include <QtWidgets/QtWidgets>
 #include <QtGlobal>
 
-#include "Node.hpp"
-#include "FlowScene.hpp"
-#include "FlowView.hpp"
+#include "Node.h"
+#include "FlowScene.h"
+#include "FlowView.h"
 
-#include "NodeGeometry.hpp"
-#include "NodeGraphicsObject.hpp"
-#include "NodeDataModel.hpp"
+#include "NodeGeometry.h"
+#include "NodeGraphicsObject.h"
+#include "NodeDataModel.h"
 
-#include "ConnectionState.hpp"
-#include "ConnectionGeometry.hpp"
-#include "ConnectionGraphicsObject.hpp"
+#include "ConnectionState.h"
+#include "ConnectionGeometry.h"
+#include "ConnectionGraphicsObject.h"
 
 using QtNodes::Connection;
 using QtNodes::PortType;

@@ -2,8 +2,8 @@
 
 #include <memory>
 
-#include "Node.hpp"
-#include "Connection.hpp"
+#include "Node.h"
+#include "Connection.h"
 
 namespace QtNodes
 {

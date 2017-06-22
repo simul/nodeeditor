@@ -6,9 +6,9 @@
 
 #include <QtCore/QString>
 
-#include "NodeDataModel.hpp"
-#include "Export.hpp"
-#include "QStringStdHash.hpp"
+#include "NodeDataModel.h"
+#include "Export.h"
+#include "QStringStdHash.h"
 
 namespace QtNodes
 {

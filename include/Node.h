@@ -7,15 +7,15 @@
 
 #include <QtCore/QJsonObject>
 
-#include "PortType.hpp"
+#include "PortType.h"
 
-#include "Export.hpp"
-#include "NodeState.hpp"
-#include "NodeGeometry.hpp"
-#include "NodeData.hpp"
-#include "NodeGraphicsObject.hpp"
-#include "ConnectionGraphicsObject.hpp"
-#include "Serializable.hpp"
+#include "Export.h"
+#include "NodeState.h"
+#include "NodeGeometry.h"
+#include "NodeData.h"
+#include "NodeGraphicsObject.h"
+#include "ConnectionGraphicsObject.h"
+#include "Serializable.h"
 
 namespace QtNodes
 {
@@ -29,8 +29,6 @@ class Node
   : public QObject
   , public Serializable
 {
-  Q_OBJECT
-
 public:
 
   /// NodeDataModel should be an rvalue and is moved into the Node

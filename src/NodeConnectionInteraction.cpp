@@ -1,10 +1,10 @@
-#include "NodeConnectionInteraction.hpp"
+#include "NodeConnectionInteraction.h"
 
-#include "ConnectionGraphicsObject.hpp"
-#include "NodeGraphicsObject.hpp"
-#include "NodeDataModel.hpp"
-#include "DataModelRegistry.hpp"
-#include "FlowScene.hpp"
+#include "ConnectionGraphicsObject.h"
+#include "NodeGraphicsObject.h"
+#include "NodeDataModel.h"
+#include "DataModelRegistry.h"
+#include "FlowScene.h"
 
 using QtNodes::NodeConnectionInteraction;
 using QtNodes::PortType;

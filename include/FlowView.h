@@ -2,7 +2,7 @@
 
 #include <QtWidgets/QGraphicsView>
 
-#include "Export.hpp"
+#include "Export.h"
 
 namespace QtNodes
 {

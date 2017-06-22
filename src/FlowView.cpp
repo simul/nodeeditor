@@ -1,4 +1,4 @@
-#include "FlowView.hpp"
+#include "FlowView.h"
 
 #include <QtWidgets/QGraphicsScene>
 
@@ -15,12 +15,12 @@
 #include <iostream>
 #include <cmath>
 
-#include "FlowScene.hpp"
-#include "DataModelRegistry.hpp"
-#include "Node.hpp"
-#include "NodeGraphicsObject.hpp"
-#include "ConnectionGraphicsObject.hpp"
-#include "StyleCollection.hpp"
+#include "FlowScene.h"
+#include "DataModelRegistry.h"
+#include "Node.h"
+#include "NodeGraphicsObject.h"
+#include "ConnectionGraphicsObject.h"
+#include "StyleCollection.h"
 
 using QtNodes::FlowView;
 using QtNodes::FlowScene;

@@ -2,7 +2,7 @@
 
 #include <utility>
 #include <QtCore/QUuid>
-#include "make_unique.hpp"
+#include "make_unique.h"
 
 
 namespace QtNodes

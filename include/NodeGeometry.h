@@ -7,8 +7,8 @@
 #include <QtGui/QTransform>
 #include <QtGui/QFontMetrics>
 
-#include "PortType.hpp"
-#include "Export.hpp"
+#include "PortType.h"
+#include "Export.h"
 
 namespace QtNodes
 {

@@ -6,8 +6,8 @@
 
 #include <QtCore/QUuid>
 
-#include "PortType.hpp"
-#include "NodeData.hpp"
+#include "PortType.h"
+#include "NodeData.h"
 
 namespace QtNodes
 {
